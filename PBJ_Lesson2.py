@@ -28,18 +28,22 @@
 # I have enough bread for 2 more sandwiches, enough peanut butter for 7 more, and enough jelly for 1 more.
 # Making sandwich #4
 # All done; I ran out of jelly.
+-----------------------------------------------------------------------------------------
+##Part 1
+-----------------------------------------------------------------------------------------
+bread = 4
+peanut_butter = 3
+jelly = 10
 
-#bread = 4
-#peanut_butter = 3
-#jelly = 10
+while bread >= 2 and peanut_butter >=1 and jelly >=1:
+    print "I'm making a pb&j."
+    bread = bread - 2
+    peanut_butter = peanut_butter - 1
+    jelly = jelly - 1
 
-#while bread >= 2 and peanut_butter >=1 and jelly >=1:
- #   print "I'm making a pb&j."
-  #  bread = bread - 2
-   # peanut_butter = peanut_butter - 1
-    #jelly = jelly - 1
-
-
+-----------------------------------------------------------------------------------------
+##Part 2
+-----------------------------------------------------------------------------------------
 bread=10
 peanut_butter=10
 jelly=4
